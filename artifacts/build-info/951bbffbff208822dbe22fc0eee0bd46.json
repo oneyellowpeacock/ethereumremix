@@ -1,0 +1,68 @@
+{
+	"id": "951bbffbff208822dbe22fc0eee0bd46",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.8",
+	"solcLongVersion": "0.8.8+commit.dddeac2f",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"FundMe.sol": {
+				"content": "// Get funds from users\n// Withdraw funds\n// Set a minimum fund value in USD\n\n// SPDX-License-Identifier: MIT\n\npragma solidity ^0.8.8;\n\n\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"sources": {
+			"FundMe.sol": {
+				"ast": {
+					"absolutePath": "FundMe.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".8"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "111:23:0"
+						}
+					],
+					"src": "111:26:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
